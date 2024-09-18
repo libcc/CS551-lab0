@@ -17,3 +17,4 @@ The test.sh file simply generates the ppmcvt executable file using 'make' comman
 ```
 ./ppmcvt -flag1 -flag2 output-image-name.pbm input-image-name.ppm
 ```
+You can simply use 'make' command (This command uses the contents of the Makefile) to generate the executable file and manually test if your program works.
