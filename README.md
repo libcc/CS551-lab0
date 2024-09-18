@@ -12,7 +12,7 @@ If you got permission denied, first run this and then try running './test.sh' co
 chmod 777 test.sh
 ```
 
-The test.sh file simply generates the ppmcvt executable file using 'make' command (GCC and Cmake must be installed on te system) and then runs 12 tests using a command like this: 
+The test.sh file simply generates the ppmcvt executable file using 'make' command (GCC and CMake must be installed on the system) and then runs 12 tests using a command like this: 
 
 ```
 ./ppmcvt -flag1 -flag2 output-image-name.pbm input-image-name.ppm
